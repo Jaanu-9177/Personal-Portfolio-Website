@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Jaanus Personal Portfolio Website</title>
+
+      <!-- box icons -->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      
+      <!--custom css-->
+      <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header class="header">
+        <a href="#" class="logo">Port<span>folio</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+      </nav>
+      </header>
+      
+      <!-- home section design -->
+       <section class="home" id="home">
+          <div class="home-content">
+              <h3>Hello, It's Me</h3>
+              <h1>Jahnavi</h1>
+              <h3>And I'm a <span class="multiple-text"></span></h3>
+              <p>"Welcome to my portfolio website! I am Jahnavi, a passionate B.Tech student specializing in Computer Science. Here, you'll find a showcase of my projects, demonstrating my proficiency in HTML, CSS, JavaScript."</p>
+              <div class="social-media">
+                <a href="#"><i class='bx bxl-gmail' ></i></a>
+                <a href="https://github.com/Jaanu-9177"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/jahnavi-kollu-710b552aa"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+              </div>
+              <a href="jaanu resume.docx" download="Resume.doc" class="btn" style="color: black;">Download RESUME</a>
+          </div>
+
+          <div class="home-img">
+            <img src="jaanu.jpg" alt="">
+          </div>
+       </section>
+
+       <!-- about section design -->
+        <section class="about" id="about">
+          <div class="about-img">
+            <img src="jaanu.jpg" alt="">
+          </div>
+          
+          <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>"Welcome to my portfolio website! I am Jahnavi , a passionate B.Tech student specializing in Computer Science. Here, you'll find a showcase of my projects, demonstrating my proficiency in HTML, CSS, JavaScript, and React.js. As a campus ambassador for LetsUpgrade Company, I excel in communication and leadership, promoting initiatives and fostering community engagement. With a proactive approach and collaborative spirit, I thrive in team environments, eager to learn and contribute to impactful projects. Committed to continuous learning and exploring new technologies, I aspire to make meaningful contributions to the field of web development and beyond. Explore my portfolio to learn more about my journey and accomplishments!"</p>
+            <a href="about me.html" class="btn">Read More</a>
+          </div>
+        </section>
+
+        <!-- Services section design -->
+         <section class="services" id="services">
+          <h2 class="heading">My <span>Services</span></h2>
+
+          <div class="services-container">
+            <div class="services-box">
+              <i class='bx bx-code-alt' ></i>
+              <h3>Frontend Development</h3>
+              <p>For building the front-end portion of websites and web applications—the part users see and interact with. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.</p>
+            </div>
+
+            <div class="services-box">
+              <i class='bx bxs-user-detail'></i>
+              <h3>Vulnerability Assessment and Penetration Testing</h3>
+              <p>Thorough scanning of networks, servers, and applications to identify potential security weaknesses and misconfigurations. Prioritization of vulnerabilities based on severity and potential impact.</p>
+            </div>
+
+            <div class="services-box">
+              <i class='bx bxs-bar-chart-alt-2'></i>
+              <h3>Sentimental Analysis</h3>
+              <p>Sentiment analysis is the process of analyzing digital text to determine if the emotional tone of the message is positive, negative, or neutral.Sentiment analysis is often performed on textual data to help businesses monitor brand & product sentiment in customer feedback, & understand customer needs.</p>
+            </div>
+
+          </div>
+         </section>
+
+         <!-- portfolio section design -->
+        <section class="portfolio" id="portfolio">
+          <h2 class="heading">Latest <span>Projects</span></h2>
+
+            <div class="portfolio-container">
+
+              <div class="portfolio-box">
+                  <img src="reviews.png" alt="">
+                  <div class="portfolio-layer">
+                    <h4>Sentimental Analysis on Resturant Reviews</h4>
+                    <p>To build a prediction model to predict whether a review on the restaurant is +ve or -ve.</p>
+                    <a href="project.html"><i class='bx bx-link-external' ></i></a>
+                  </div>
+              </div>
+
+              <div class="portfolio-box">
+                  <img src="Pentest.jpg" alt="">
+                  <div class="portfolio-layer">
+                    <h4>Pentest On Web Applications</h4>
+                    <p>An authorized simulated attack performed on a computer system to evaluate its security.</p>
+                    <a href="project 2.html"><i class='bx bx-link-external' ></i></a>
+                  </div>
+              </div>
+
+              <div class="portfolio-box">
+                  <img src="vul on windows.jpg" alt="">
+                  <div class="portfolio-layer">
+                    <h4>VUL ASMT On Windows</h4>
+                    <p>Windows vulnerability scanner is an easy-to-use application. </p>
+                    <a href="project 3.html"><i class='bx bx-link-external' ></i></a>
+                  </div>
+              </div>
+            </div>
+        </section>
+
+        <!-- contact section design -->
+         <section class="contact" id="contact">
+          <h2 class="heading">Contact<span>Me!</span></h2>
+
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="input-box" required>
+              <input type="hidden" name="access_key" value="686409f2-e2f2-40b1-9d54-f994dec57e4a">
+              <input type="text" name="name" placeholder="Full Name">
+              <input type="email" name="email" placeholder="Email ID">
+              <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+              <input type="submit" value="Send Message" class="btn" style="background:#0ef; color:black; border-radius: 4rem;">
+          </form>
+         </section>
+         
+         <!-- footer design -->
+          <footer class="footer">
+            <div class="footer-text">
+              <p>Copyright &copy; 2024 by Jahnavi! | All Rights Reserved</p>
+            </div>
+
+            <div class="footer-iconTop">
+              <a href="#home"><i class='bx bxs-up-arrow'></i></a>
+            </div>
+          </footer>
+
+
+          <!-- scroll reveal -->
+          <script src="https://unpkg.com/scrollreveal"></script>
+          
+          <!-- typed js -->
+          <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+      <!--custom js-->
+      <script src="script.js"></script>
+</body>
+
+</html>
